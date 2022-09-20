@@ -7,7 +7,8 @@ Trabajaremos en la visualización, el análisis y la predicción de datos utiliz
 ## Prerequisitos
 
 Para comenzar con este taller, necesitará tener [Spyder](https://www.spyder-ide.org) instalado en un ambiente de Python 3 que contenga al menos las librerías Numpy, Matplotlib, Pandas y Scikit-Learn.
-Le recomendamos que descargue e instale la [distribución de Python Anaconda](https://www.anaconda.com/products/individual), que contiene todas estas librerías y más en un solo lugar.
+Le recomendamos que descargue e instale la [distribución de Python Anaconda](https://www.anaconda.com/products/individual), que contiene Spyder, todas estas librerías y más en un solo lugar.
+Si tiene algún problema con Anaconda, le aconsejamos instalar nuestras aplicaciones de Windows o macOS, las cuales se pueden descargar desde esta [página web](https://github.com/spyder-ide/spyder/releases).
 
 
 ## Configuración del proyecto
