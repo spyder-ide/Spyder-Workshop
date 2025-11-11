@@ -94,7 +94,6 @@ We also see that there are some qualitative variables, which can make our analys
 For this reason, we want to stick to the columns that give us numerical information and drop the categorical ones:
 
 ```python
-# Drop categorical columns
 weather_data_ordered.drop(
     columns=['Summary', 'Precip Type', 'Loud Cover', 'Daily Summary'],
     axis='columns', inplace=True)
