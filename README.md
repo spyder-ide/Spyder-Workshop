@@ -95,7 +95,8 @@ For this reason, we want to stick to the columns that give us numerical informat
 
 ```python
 weather_data_ordered.drop(
-    columns=['Summary', 'Precip Type', 'Loud Cover', 'Daily Summary'])
+    columns=['Summary', 'Precip Type', 'Loud Cover', 'Daily Summary'],
+    axis='columns', inplace=True)
 ```
 
 9. Plot `Temperature (C)` versus `Formatted Date` to see how temperature changes over time:
