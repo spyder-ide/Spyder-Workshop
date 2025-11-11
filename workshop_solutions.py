@@ -46,7 +46,9 @@ weather_data_ordered.reset_index(drop=True)
 # Drop categorical columns
 weather_data_ordered.drop(
     columns=['Summary', 'Precip Type', 'Loud Cover', 'Daily Summary'],
-    axis='columns', inplace=True)
+    axis='columns',
+    inplace=True,
+)
 
 # Plot temperature vs. date
 weather_data_ordered.plot(
